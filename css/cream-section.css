@@ -1,0 +1,80 @@
+.ice-cream-section {
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(to bottom, #f0f0f0, #ffe6f9,);
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+  }
+  
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 500px;
+  }
+  
+  .ice-cream-title {
+    font-size: 3rem;
+    font-family: var(--font-berkshire);
+    line-height: 1.15em;
+  }
+
+  .text-cream-span {
+    color: var(--btn);
+  }
+
+  .image-content img {
+    max-width: 450px;
+    height: auto;
+  }
+
+  .cream-btn {
+    width: 9rem;
+    margin: 1rem 0;
+    border-radius: 16px;
+    border: none;
+    box-shadow:  0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: var(--clr-btn);
+    color: var(--clr-text);
+    padding: 0.30rem;
+  }
+
+  .paragraf {
+    color: var(--title-text);
+    font-size: 8px;
+  }
+
+  .ice-cream-title-seciton-02 {
+     font-size: 12px;
+  }
+ 
+  /* Ajustes para telas pequenas (340px até 767px) */
+  @media (max-width: 767px) {
+    .ice-cream-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 1em;
+      width: 100%;
+    }
+  
+    .text-content {
+      text-align: center;
+      margin: 0;
+      width: 100%;
+    }
+    .cream-btn {
+      width: 100%;
+    }
+
+    .image-content img {
+      max-width: 15rem;
+      height: auto;
+    }
+  
+  }
